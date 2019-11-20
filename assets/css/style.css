@@ -1,0 +1,24 @@
+header{
+    position:fixed;
+    margin: 40px;
+    background-color: grey;
+    z-index: 3;
+    width: 960px;
+    padding:30px;
+}
+h1{
+    background-color: turquoise;
+    color: white;
+    width: 960px;
+    margin:20px;
+    padding:30px;
+}
+section{
+    background-color: #eee;
+    margin:0 auto;
+    padding: 30px;
+}
+img{
+    height: 50px;
+    width:20px;
+}
