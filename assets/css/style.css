@@ -18,7 +18,8 @@ header{
     position: relative;
     /* overflow: clp; */
     padding: 20px 30px 19px;
-    margin:0px 150px 0px 150px;
+    margin:0px 100px 0px 100px; 
+    
 }
 #name{
     float:left;
@@ -28,6 +29,7 @@ header{
 }
 #links{
     float: right;
+    padding:20px 10px 19px 10px;
 }
 a:link {
     color: #949597;
@@ -40,13 +42,12 @@ a:visited {
 a:hover {
     color: #4aaaa5;
   }
-  
-  
-.clearfix::after {
+
+/* .clearfix::after {
     content: "";
     clear: both;
     display: block;
-} 
+}  */
 .box{
     position:static;
     /* padding: 20px 30px 19px; */
@@ -54,31 +55,42 @@ a:hover {
     background-color: white;
     /* position:relative; */
     width: 960px;
-    height: 300px;
+    /* height: 500px; */
     border-style: solid;
     border-width: 1px;
     border-color: #D5D5D3;
 }
-h1{
+#about-me{ 
     padding: 0px 0px 20px 0px;
     margin: 10px 20px 20px 20px;
     border-bottom: 1px solid #D5D5D3;
     color: #4aaaa5;
     font-size: larger;
     font-style: bold;
-
 }
 .content{
     margin:0 auto;
     padding: 20px 10px 20px 10px;
-    width: 930px;
+    /* width: 930px; */
 }
 img{
     height: 190px;
-    width: 175px;
+    width: 190px;
     float: left;
-    margin: 10px;
+    padding: 10px 20px 10px 20px;
 }
 p{
+    padding: 10px;
     margin: 10px;
+}
+form{
+    padding: 
+}
+#contact{
+    padding: 0px 0px 20px 0px;
+    margin: 10px 20px 20px 20px;
+    border-bottom: 1px solid #D5D5D3;
+    color: #4aaaa5;
+    font-size: larger;
+    font-style: bold;
 }
