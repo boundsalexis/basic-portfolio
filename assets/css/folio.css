@@ -38,13 +38,11 @@
     width:240px;
     background-color: teal;
     text-align: center;
-    /* margin: 10px auto; */
+   
     color: white;
     padding: 20px 0px 0px 0px;
 }
-#height{
-    height: 700px;
-}
-#folio{
-    height: 100px;
+
+.content{
+    height: 600px;
 }
