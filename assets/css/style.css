@@ -1,24 +1,60 @@
+body {
+    max-width: 1000px;
+    overflow-x: hidden;
+}
 header{
-    position:fixed;
-    margin: 40px;
-    background-color: grey;
-    z-index: 3;
-    width: 960px;
-    padding:30px;
-}
-h1{
-    background-color: turquoise;
-    color: white;
-    width: 960px;
-    margin:20px;
-    padding:30px;
-}
-section{
-    background-color: #eee;
+    position:static;
     margin:0 auto;
+    background-color:white;
+    width: 960px;
+    height: 40px;
+}
+.toolbar{
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 30px;
+}
+#name{
+    float:left;
+    background-color: teal;
+    color: white;
+    font-size: larger; 
+}
+#links{
+    float: right;
+}
+a:link {
+    color: #949597;
+  }
+  
+a:visited {
+    color: #949597;
+  }
+  
+a:hover {
+    color: #4BA4A5;
+  }
+  
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+} 
+section{
+    position:static;
+    background-color: #eee;
+    margin:50px auto;
     padding: 30px;
+    width: 960px;
 }
 img{
-    height: 50px;
-    width:20px;
+    height: 190px;
+    width: 175px;
+    float: left;
+    margin: 10px;
+}
+p{
+    margin: 10px;
 }
