@@ -1,3 +1,47 @@
-.box{
-    background-color: red;
+.proj1{
+    position: relative;
+    background-color: thistle;
+    height: 240px;
+    width: 240px;
+    margin:20px;
+}
+.proj2{
+    position: relative;
+    left:270px;
+    top: -260px;
+    background-color: thistle;
+    height: 240px;
+    width: 240px;
+    margin:20px;
+}
+.proj3{
+    position: relative;
+    left:540px;
+    top: -520px;
+    background-color: thistle;
+    height: 240px;
+    width: 240px;
+    margin:20px;
+}
+.proj4{
+    position:relative;
+    top: -520px;
+    background-color: thistle;
+    height: 240px;
+    width: 240px;
+    margin:20px;
+}
+.label{
+    position:absolute; 
+    bottom: 20px;
+    height: 40px;
+    width:240px;
+    background-color: teal;
+    text-align: center;
+    /* margin: 10px auto; */
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+#height{
+    height: 200px;
 }
