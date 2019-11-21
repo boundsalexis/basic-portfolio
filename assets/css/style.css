@@ -60,7 +60,7 @@ a:hover {
     border-width: 1px;
     border-color: #D5D5D3;
 }
-#about-me{ 
+h1{ 
     padding: 0px 0px 20px 0px;
     margin: 10px 20px 20px 20px;
     border-bottom: 1px solid #D5D5D3;
@@ -72,6 +72,7 @@ a:hover {
     margin:0 auto;
     padding: 20px 10px 20px 10px;
     /* width: 930px; */
+    
 }
 img{
     height: 190px;
@@ -84,13 +85,29 @@ p{
     margin: 10px;
 }
 form{
-    padding: 
+    margin: 10px 19px 10px 20px;
 }
-#contact{
-    padding: 0px 0px 20px 0px;
-    margin: 10px 20px 20px 20px;
-    border-bottom: 1px solid #D5D5D3;
-    color: #4aaaa5;
-    font-size: larger;
-    font-style: bold;
+input[type=text] {
+    width: 900px;
+    margin: 10px 0px 10px 0px;
+    padding: 3px 0px 3px 0px;
+  }
+input[type=email]{
+    width: 900px;
+    margin: 10px 0px 10px 0px;
+   padding: 3px 0px 3px 0px;
 }
+#message{
+    width: 900px;
+    margin: 10px 0px 10px 0px;
+    height: 200px;
+}
+input[type=submit]{
+    width: 100px;
+    height:45px;
+    background-color:#4aaaa5 ;
+    color: white;
+    border: 2px solid ##7777;
+    font-size: 20px;
+}
+
