@@ -82,3 +82,12 @@ p{
     padding: 10px;
     margin: 10px;
 }
+footer{
+    position: sticky;
+    height: 50px;
+    width:100%;
+    background-color: grey;
+}
+.wrapper {
+    min-height: calc(100vh - 50px);
+  }
