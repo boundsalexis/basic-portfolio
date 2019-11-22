@@ -31,6 +31,10 @@ header{
     top:0px;
     padding:20px 10px 19px 10px;
 }
+a{
+    padding: 4px;
+    border-right: 1px solid #cccccc; 
+}
 a:link {
     color: #949597;
     text-decoration: none;
@@ -89,6 +93,7 @@ footer{
     color:white;
     text-align: center;
     font-size:xx-small;
+    padding: 10px;
 }
 .wrapper {
     min-height: calc(100vh - 50px);
